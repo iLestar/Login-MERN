@@ -16,7 +16,7 @@ export const register = async (req, res) => {
             email: userSaved.email
         })
     } catch (error) {
-        res.status(500).json({messahe: error.message})
+        res.status(500).json({message: error.message})
     }
      
 }
